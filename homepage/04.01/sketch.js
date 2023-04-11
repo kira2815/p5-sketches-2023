@@ -36,7 +36,7 @@ blendMode(DIFFERENCE);
   push(); 
   translate(width / 2, height / 2);
   rotate(angle);
-  scale(1, -scaleAmount); // flip vertically
+  scale(1, -scaleAmount);
   textSize(200);
   textAlign(CENTER, CENTER);
   fill(255,0,0); 

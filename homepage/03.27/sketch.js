@@ -6,7 +6,7 @@ function draw() {
   // background(10,100,50);
   push(); 
   noStroke(); 
-  translate(500, 400); // set center of rotation to center of the ellipses
+  translate(500, 400); 
   rotate(frameCount * 0.002);
   fill (255,50,100);
   ellipse(0, 0, 100, 100); 
